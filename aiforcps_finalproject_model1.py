@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/github/sbhatt26/DynamicLearning-KD-SR/blob/main/AIFORCPS_FINALPROJECT_MODEL1.ipynb
 """
 
-pip install torchaudio==0.11.0 torch==1.11.0 comet-ml==3.0.2
-
 import os
 import torch
 import torch.nn as nn
