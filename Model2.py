@@ -8,7 +8,6 @@ Original file is located at
 """
 
 
-!pip install torchaudio torch comet_ml transformers librosa soundfile
 import os
 import torch
 import torch.nn as nn
