@@ -5,7 +5,7 @@ This repository contains code for speech recognition using Wav2Vec2, a pretraine
 
 ## Overview
 
-Here is the, GitHub Repository Link:
+Here is the, GitHub Repository Link: https://github.com/sbhatt26/DynamicLearning-KD-SR.git
 The code provided here allows you to:
 - Perform speech recognition on audio data using Wav2Vec2 model.
 - Compute Word Error Rate (WER) and Character Error Rate (CER) metrics.
@@ -65,33 +65,3 @@ Execute the aiforcps_finalproject_model2.py script by running:
 #### Alternative if above code doesn't work:
 
 An alternative to above method if for some reason it doesn't work than copy the code from .ipynb file and run in your Google Colab Notebook, cell after cell as is in the notebook. The .ipynb file is named "AIFORCPS_FINALPROJECT_MODEL2.ipynb" under the GitHub repository, link given in the Overview section.
-
-
-
- Import the necessary libraries:
-
-```python
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import torch.nn.functional as F
-import torchaudio
-import librosa
-from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor, Wav2Vec2CTCTokenizer
-
-learning_rate = 5e-4
-batch_size = 20
-epochs = 10
-libri_train_set = "dev-clean"
-libri_test_set = "test-clean"
-experiment = Experiment(
-  api_key="your_comet_ml_api_key",
-  project_name="your_project_name",
-  workspace="your_workspace",
-  log_code=True
-)
-
-main(learning_rate, batch_size, epochs, libri_train_set, libri_test_set, experiment=experiment)
-
-# Optionally, make translations and play audio samples
-play_audio()
