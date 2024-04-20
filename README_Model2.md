@@ -65,3 +65,19 @@ Execute the aiforcps_finalproject_model2.py script by running:
 #### Alternative if above code doesn't work:
 
 An alternative to above method if for some reason it doesn't work than copy the code from .ipynb file and run in your Google Colab Notebook, cell after cell as is in the notebook. The .ipynb file is named "AIFORCPS_FINALPROJECT_MODEL2.ipynb" under the GitHub repository, link given in the Overview section.
+
+## Configuration Files
+
+No external configuration files are used. All settings are passed as command-line arguments or are hardcoded in the scripts.
+
+## References
+
+1. Chu, Shih-Chuan, Chung-Hsien Wu, and Tsai-Wei Su. "Speech Enhancement Using Dynamic Learning in Knowledge Distillation via Reinforcement Learning." IEEE Access (2023). https://ieeexplore.ieee.org/abstract/document/10363197
+
+2. Pimentel, Arthur, et al. "Environment-Aware Knowledge Distillation for Improved Resource-Constrained Edge Speech Recognition." Applied Sciences 13.23 (2023): 12571. https://www.mdpi.com/2076-3417/13/23/12571
+
+3. Zhang, Hailin, Defang Chen, and Can Wang. "Confidence-aware multi-teacher knowledge distillation." ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022. https://ieeexplore.ieee.org/abstract/document/9747534?casa_token=7dmvUD9mwMgAAAAA:L3O9k7wiL6m8i5TwfHR0iQqOFvx2-CoWVUPwlNl3fvIlFSrzJ8No6hWklVJc6PuXsWDt01eK
+
+4. Amodei, Dario, et al. "Deep speech 2: End-to-end speech recognition in english and mandarin." International conference on machine learning. PMLR, 2016. https://proceedings.mlr.press/v48/amodei16.html
+
+5. Yi, Cheng, et al. "Applying wav2vec2. 0 to speech recognition in various low-resource languages." arXiv preprint arXiv:2012.12121 (2020).
