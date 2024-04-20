@@ -66,10 +66,6 @@ Execute the aiforcps_finalproject_model2.py script by running:
 
 An alternative to above method if for some reason it doesn't work than copy the code from .ipynb file and run in your Google Colab Notebook, cell after cell as is in the notebook. The .ipynb file is named "AIFORCPS_FINALPROJECT_MODEL2.ipynb" under the GitHub repository, link given in the Overview section.
 
-## Configuration Files
-
-No external configuration files are used. All settings are passed as command-line arguments or are hardcoded in the scripts.
-
 ## References
 
 1. Chu, Shih-Chuan, Chung-Hsien Wu, and Tsai-Wei Su. "Speech Enhancement Using Dynamic Learning in Knowledge Distillation via Reinforcement Learning." IEEE Access (2023). https://ieeexplore.ieee.org/abstract/document/10363197
