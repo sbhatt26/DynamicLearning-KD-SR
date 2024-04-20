@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1WvytUHMQBZ0MdJSqa5276vx0ergqXANV
 """
 
-
-
 import os
 import torch
 import torch.nn as nn
