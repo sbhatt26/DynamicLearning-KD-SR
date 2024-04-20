@@ -27,7 +27,7 @@ The model is trained and evaluated using the LibriSpeech dataset, which is a pub
 ### Running the Code in Google Colab:
 
 #### Note:
-Add all of the above code in one cell in Google Colab notebook and then run the cell.
+Add all of the below code in one cell in Google Colab notebook and then run the cell.
 
 #### Step 1: Clone the GitHub Repository
 
