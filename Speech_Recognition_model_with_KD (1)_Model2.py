@@ -7,9 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1WvytUHMQBZ0MdJSqa5276vx0ergqXANV
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
 
+pip install torchaudio torch comet_ml transformers librosa soundfile
 import os
 import torch
 import torch.nn as nn
