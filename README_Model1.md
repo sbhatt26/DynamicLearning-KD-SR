@@ -3,7 +3,7 @@
 
 #### Overview:
 
-This project aims to improve speech recognition capabilities using a Dynamic Attention Mechanism for Adaptive Knowledge Distillation. The focus is on enhancing the adaptability and accuracy of speech recognition models in dynamic acoustic environments, critical for applications in cyber-physical systems.
+This is the README file for our Model Number 1. This project aims to improve speech recognition capabilities using a Dynamic Attention Mechanism for Adaptive Knowledge Distillation. The focus is on enhancing the adaptability and accuracy of speech recognition models in dynamic acoustic environments, critical for applications in cyber-physical systems.
 
 Here is the GitHub repository link: https://github.com/sbhatt26/DynamicLearning-KD-SR.git
 
