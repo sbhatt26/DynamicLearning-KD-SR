@@ -5,6 +5,7 @@ This repository contains code for speech recognition using Wav2Vec2, a pretraine
 
 ## Overview
 
+Here is the, GitHub Repository Link:
 The code provided here allows you to:
 - Perform speech recognition on audio data using Wav2Vec2 model.
 - Compute Word Error Rate (WER) and Character Error Rate (CER) metrics.
@@ -27,6 +28,46 @@ To run the code, you need the following dependencies:
 - librosa
 
 ## Usage
+
+### Running the Code in Google Colab:
+
+#### Note:
+Add all of the below code in one cell in Google Colab notebook and then run the cell.
+
+#### Step 1: Install the dependencies
+
+```bash
+pip install torchaudio torch comet_ml transformers librosa soundfile
+```
+
+#### Step 2: Clone the GitHub Repository
+
+In a new cell at the top of your Google Colab notebook, enter the following command to clone the repository:
+
+```bash
+!git clone https://github.com/sbhatt26/DynamicLearning-KD-SR.git
+```
+
+#### Step 3: Change Directory
+After cloning the repository, change your current working directory to the repository's folder by running:
+
+```bash
+%cd DynamicLearning-KD-SR
+```
+
+#### Step 4: Run the Script
+Execute the aiforcps_finalproject_model2.py script by running:
+
+```bash
+!python aiforcps_finalproject_model2.py
+```
+
+#### Alternative if above code doesn't work:
+
+An alternative to above method if for some reason it doesn't work than copy the code from .ipynb file and run in your Google Colab Notebook, cell after cell as is in the notebook. The .ipynb file is named "AIFORCPS_FINALPROJECT_MODEL2.ipynb" under the GitHub repository, link given in the Overview section.
+
+
+
  Import the necessary libraries:
 
 ```python
