@@ -17,6 +17,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 import torchaudio
 import numpy as np
+import comet_ml
 from comet_ml import Experiment
 from comet_ml.integration.pytorch import log_model
 import soundfile as sf
