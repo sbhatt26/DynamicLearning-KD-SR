@@ -1,5 +1,6 @@
 # Speech Recognition with Wav2Vec2
 
+This is the README file for our Model Number 2.
 This repository contains code for speech recognition using Wav2Vec2, a pretrained model for Automatic Speech Recognition (ASR) released by Hugging Face's Transformers library.
 
 ## Overview
